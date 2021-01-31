@@ -48,7 +48,7 @@
 
 ### :information_source: Como usar
 
-Para clonar este aplicativo, você precisará do [Git] (https://git-scm.com) instalado em seu computador.
+Para clonar este aplicativo, você precisará do Git (https://git-scm.com) instalado em seu computador.
 Na linha de comando:
 
 ```bash
