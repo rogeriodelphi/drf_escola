@@ -61,22 +61,22 @@ class CursoViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
-# class AvaliacaoViewSet(viewsets.ModelViewSet):
-#     """Listar, criar, Atualizar, deletar uma Avaliação"""
-#     queryset = Avaliacao.objects.all()
-#     serializer_class = AvaliacaoSerializer
-
-
-class AvaliacaoViewSet(
-    mixins.CreateModelMixin,
-    mixins.RetrieveModelMixin,
-    mixins.UpdateModelMixin,
-    mixins.DestroyModelMixin,
-    mixins.ListModelMixin,
-    viewsets.GenericViewSet
-    ):
+class AvaliacaoViewSet(viewsets.ModelViewSet):
+    """Listar, criar, Atualizar, deletar uma Avaliação"""
     queryset = Avaliacao.objects.all()
     serializer_class = AvaliacaoSerializer
-    """
-    Listar, criar, Atualizar, deletar uma Avaliação
-    """
+
+
+# class AvaliacaoViewSet(
+#     mixins.CreateModelMixin,
+#     mixins.RetrieveModelMixin,
+#     mixins.UpdateModelMixin,
+#     mixins.DestroyModelMixin,
+#     mixins.ListModelMixin,
+#     viewsets.GenericViewSet
+#     ):
+#     queryset = Avaliacao.objects.all()
+#     serializer_class = AvaliacaoSerializer
+#     """
+#     Listar, criar, Atualizar, deletar uma Avaliação
+#     """
