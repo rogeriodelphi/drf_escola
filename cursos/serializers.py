@@ -23,7 +23,13 @@ class AvaliacaoSerializer(serializers.ModelSerializer):
 
 class CursoSerializer(serializers.ModelSerializer):
     # Nested Relationship
-    avaliacoes = AvaliacaoSerializer(many=True, read_only=True)
+    # avaliacoes = AvaliacaoSerializer(many=True, read_only=True)
+
+    #Hyper Linked Related Field
+    avaliacoes = serializers.HyperlinkedIdentityField(
+        many=True,
+        read_only=True,
+        view_name='avaliacao-detail')
 
     class Meta:
         model = Curso
