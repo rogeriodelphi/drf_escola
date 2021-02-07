@@ -2,5 +2,7 @@ Django==2.2.9
 django-filter==2.4.0
 djangorestframework==3.12.2
 Markdown==3.3.3
+mixins==0.1.4
+Pillow==8.1.0
 pytz==2020.5
 sqlparse==0.4.1

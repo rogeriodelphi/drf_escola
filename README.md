@@ -6,12 +6,9 @@
 ### Nesse código foram abordados os conceitos de:
 * ##### utilização da arquitetura Django Rest API;
 * ##### uso de lógica de programação separadas com serializers e validators;
-* #### Controle de versionamento com "Query Parameter Versioning";
-* #### Uso do método HTTP para limitar as requisições de acordo com verbo em uso('get','post', 'put', 'delete');
-* #### Utilizando Relações com Django REST Framework com: Nested Relationship, Hiper Linked Related Field e Primary Key Related Field;
-
-
-
+* ##### Controle de versionamento com "Query Parameter Versioning";
+* ##### Uso do método HTTP para limitar as requisições de acordo com verbo em uso('get','post', 'put', 'delete');
+* ##### Utilizando Relações com Django REST Framework com: Nested Relationship, Hiper Linked Related Field e Primary Key Related Field;
 
 <div align="center">
 
