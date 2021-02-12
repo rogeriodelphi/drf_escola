@@ -68,7 +68,7 @@ class CursoViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
-# class AvaliacaoViewSet(viewsets.ModelViewSet):
-#     """Listar, criar, Atualizar, deletar uma Avaliação"""
-#     queryset = Avaliacao.objects.all()
-#     serializer_class = AvaliacaoSerializer
+class AvaliacaoViewSet(viewsets.ModelViewSet):
+    """Listar, criar, Atualizar, deletar uma Avaliação"""
+    queryset = Avaliacao.objects.all()
+    serializer_class = AvaliacaoSerializer
