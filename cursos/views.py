@@ -7,6 +7,8 @@ from rest_framework.response import Response
 from .models import Curso, Avaliacao
 from .serializers import CursoSerializer, AvaliacaoSerializer
 
+from rest_framework import permissions
+
 """API V1"""
 
 
@@ -50,6 +52,7 @@ class AvaliacaoAPIView(generics.RetrieveUpdateDestroyAPIView):
 
 class CursoViewSet(viewsets.ModelViewSet):
     """Listar, criar, Atualizar, deletar um curso"""
+    permission_classes = (permissions.DjangoModelPermissions,)
     queryset = Curso.objects.all()
     serializer_class = CursoSerializer
 
