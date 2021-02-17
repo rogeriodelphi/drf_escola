@@ -13,6 +13,8 @@
 * ##### Configurando as permissões nas views através do uso do DjangoModelPermissions;
 * ##### Criando e customizando um arquivo de permissões;
 * ##### Limitando o número de requisições com Throttling para usuário anônimo e autenticado;
+* ##### Autenticação via Token;
+* ##### Customização da validaçãod de dados;
 
 <div align="center">
 
