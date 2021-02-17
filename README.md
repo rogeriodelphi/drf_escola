@@ -9,7 +9,10 @@
 * ##### Controle de versionamento com "Query Parameter Versioning";
 * ##### Uso do método HTTP para limitar as requisições de acordo com verbo em uso('get','post', 'put', 'delete');
 * ##### Utilizando Relações com Django REST Framework com: Nested Relationship, Hiper Linked Related Field e Primary Key Related Field;
-* ##### utilização de Paginação
+* ##### utilização de Paginação;
+* ##### Configurando as permissões nas views através do uso do DjangoModelPermissions;
+* ##### Criando e customizando um arquivo de permissões;
+
 <div align="center">
 
 <p>
