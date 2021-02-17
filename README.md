@@ -12,6 +12,7 @@
 * ##### utilização de Paginação;
 * ##### Configurando as permissões nas views através do uso do DjangoModelPermissions;
 * ##### Criando e customizando um arquivo de permissões;
+* ##### Limitando o número de requisições com Throttling para usuário anônimo e autenticado;
 
 <div align="center">
 
