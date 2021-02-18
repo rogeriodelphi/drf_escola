@@ -15,15 +15,16 @@
 * ##### Limitando o número de requisições com Throttling para usuário anônimo e autenticado;
 * ##### Autenticação via Token;
 * ##### Customização da validaçãod de dados;
+* ##### Implementação de testes unitários e no PyTest;
 
 <div align="center">
 
-<p>
-<!-- Image Shields -->
-<img  alt="Languages Count"  src="https://img.shields.io/github/languages/count/rogeriodelphi/DjangoRestAPI">
-<img  alt="Last Commit"  src="https://img.shields.io/github/last-commit/rogeriodelphi/DjangoRestAPI">
-<img  alt="Repo Size"  src="https://img.shields.io/github/repo-size/rogeriodelphi/DjangoRestAPI">
-</p>
+<!--<p>-->
+<!--&lt;!&ndash; Image Shields &ndash;&gt;-->
+<!--<img  alt="Languages Count"  src="https://img.shields.io/github/languages/count/rogeriodelphi/DjangoRestAPI">-->
+<!--<img  alt="Last Commit"  src="https://img.shields.io/github/last-commit/rogeriodelphi/DjangoRestAPI">-->
+<!--<img  alt="Repo Size"  src="https://img.shields.io/github/repo-size/rogeriodelphi/DjangoRestAPI">-->
+<!--</p>-->
 
 
 
