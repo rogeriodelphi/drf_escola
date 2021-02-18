@@ -1,13 +1,13 @@
 import requests
 
-headers = {'Authorization': 'Token 25d0416fa2ccebb87d618a9685e15c3f826e4275'}
+headers = {'Authorization': 'Token b49fda9706f293de268f4a9683f4208171defc7b'}
 
 url_base_cursos = 'http://127.0.0.1:8000/api/v2/cursos/'
 url_base_avaliacoes = 'http://127.0.0.1:8000/api/v2/avaliacoes/'
 
 curso_atualizado = {
-    "titulo": "Linux",
-    "url": "http://www.com/linux2"
+    "titulo": "Linux Avançado",
+    "url": "http://www.com/linux/avancado"
 }
 
 # # Buscando o curso com id 6
